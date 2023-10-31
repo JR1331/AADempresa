@@ -1,12 +1,12 @@
 # Conexión a SQLite
-#db=sqlite
-#driver = org.sqlite.JDBC
-#dsn = jdbc:sqlite:empresa.sqlite
+db=sqlite
+driver = org.sqlite.JDBC
+dsn = jdbc:sqlite:empresa.sqlite
 
 
 # Conexión a MariaDB
-db=mariadb
-driver = org.mariadb.jdbc.Driver
-dsn = jdbc:mariadb://172.30.128.1:7706/empresa
-user = root
-pass = toor
+#db=mariadb
+#driver = org.mariadb.jdbc.Driver
+#dsn = jdbc:mariadb://172.30.128.1:7706/empresa
+#user = root
+#pass = toor

@@ -116,26 +116,6 @@ public class Menu {
 		    return anadido;
 	}
 
-	/*private static void modificarContacto(AgendaSQL agenda) {
-		IO.print("Código del contacto a modificar ? ");
-		String id = IO.readString();
-		Contacto contacto = agenda.buscarPorCodigo(id);
-		IO.print("Nombre [" + contacto.getNombre() + "] ? ");
-		String nombre = IO.readString();
-		if (!nombre.isBlank()) {
-			contacto.setNombre(nombre);
-		}
-		IO.print("Teléfono [" + contacto.getTelefono() + "] ? ");
-		String telefono = IO.readString();
-		if (!telefono.isBlank()) {
-			contacto.setTelefono(telefono);
-		}
-		IO.print("Edad [" + contacto.getEdad() + "] ? ");
-		int edad = IO.readInt();
-		contacto.setEdad(edad);
-		boolean anadido = agenda.update(contacto);
-		IO.println(anadido ? "Modificado" : "No se ha podido modificar");		
-	}*/
 
 	private static void mostrarE(EmpresaSQL empresa) {
 		System.out.println(empresa.showE());
